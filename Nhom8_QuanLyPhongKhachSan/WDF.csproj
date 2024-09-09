@@ -70,6 +70,12 @@
     <Compile Include="frmTrangChu.Designer.cs">
       <DependentUpon>frmTrangChu.cs</DependentUpon>
     </Compile>
+    <Compile Include="KhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachHang.Designer.cs">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="SoDoPhong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,12 @@
     <Compile Include="QuanLyPhong.Designer.cs">
       <DependentUpon>QuanLyPhong.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThemLoaiKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemLoaiKH.Designer.cs">
+      <DependentUpon>ThemLoaiKH.cs</DependentUpon>
+    </Compile>
     <Compile Include="Thêm Tầng.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTrangChu.resx">
       <DependentUpon>frmTrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachHang.resx">
+      <DependentUpon>KhachHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SoDoPhong.resx">
       <DependentUpon>SoDoPhong.cs</DependentUpon>
@@ -126,6 +141,9 @@
     </Compile>
     <EmbeddedResource Include="QuanLyPhong.resx">
       <DependentUpon>QuanLyPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemLoaiKH.resx">
+      <DependentUpon>ThemLoaiKH.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Thêm Tầng.resx">
       <DependentUpon>Thêm Tầng.cs</DependentUpon>
@@ -202,6 +220,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
